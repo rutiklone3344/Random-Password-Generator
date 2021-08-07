@@ -1,0 +1,54 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: cadetblue;
+}
+
+.inputBox{
+    position: relative;
+    width: 600px;
+}
+
+.inputBox h2{
+    font-size: 45px;
+    color: black;
+    padding-bottom: 20px;
+}
+
+.inputBox input{
+    position: relative;
+    width: 60%;
+    height: 30px;
+    border: 2px solid black;
+    border-radius: 4px;
+    background: transparent;
+    font-size: 20px;
+    letter-spacing: 4px;
+    color: black;
+}
+
+.inputBox ::placeholder{
+    letter-spacing: 0px;
+}
+
+.inputBox #btn{
+    position: relative;
+    cursor: pointer;
+    color: white;
+    background: black;
+    display: inline-block;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+.inputBox #btn:active{
+    background: grey;
+}
